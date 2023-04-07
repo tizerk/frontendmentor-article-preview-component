@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Article preview component</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="card-container">
+        <div class="image-section">
+          <img src="images/drawers.jpg" alt="Image of Drawers" />
+        </div>
+        <div class="right-section">
+          <div class="text-section">
+            <p class="text__header">
+              Shift the overall look and feel by adding these wonderful touches
+              to furniture in your home
+            </p>
+            <p class="text__copy">
+              Ever been in a room and felt like something was missing? Perhaps
+              it felt slightly bare and uninviting. I've got some simple tips to
+              help you make any room feel complete.
+            </p>
+          </div>
+          <div class="author-section show">
+            <img
+              src="images/avatar-michelle.jpg"
+              alt="Michelle Appleton Profile Image"
+            />
+            <div class="author__info">
+              <p class="author__name">Michelle Appleton</p>
+              <p class="author__date">28 Jun 2020</p>
+            </div>
+            <a class="author__share" href="#">
+              <img
+                class="share-icon"
+                src="images/icon-share.svg"
+                alt="Share Icon"
+            /></a>
+          </div>
+          <div class="author-section-active hide">
+            <span class="active-share-text">SHARE</span>
+            <img
+              class="social-icon"
+              src="images/icon-facebook.svg"
+              alt="Facebook Icon"
+            />
+            <img
+              class="social-icon"
+              src="images/icon-twitter.svg"
+              alt="Twitter Icon"
+            />
+            <img
+              class="social-icon"
+              src="images/icon-pinterest.svg"
+              alt="Pinterest Icon"
+            />
+            <a class="author__share active-button" href="#">
+              <svg
+                class="share-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="13"
+              >
+                <path
+                  fill="#6E8098"
+                  d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="popup-section">
+        <div class="author-section-active-desktop hide">
+          <span class="active-share-text">SHARE</span>
+          <img
+            class="social-icon"
+            src="images/icon-facebook.svg"
+            alt="Facebook Icon"
+          />
+          <img
+            class="social-icon"
+            src="images/icon-twitter.svg"
+            alt="Twitter Icon"
+          />
+          <img
+            class="social-icon"
+            src="images/icon-pinterest.svg"
+            alt="Pinterest Icon"
+          />
+        </div>
+        <div class="triangle"></div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/tizerk">Tizerk</a>.
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
